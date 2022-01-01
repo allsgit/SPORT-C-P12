@@ -1,0 +1,41 @@
+nav {
+    background-color: black;
+    color: white;
+    height: 91px;
+    display: flex;
+    align-items: center;
+.logo-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+  
+    .logo-text {
+      
+        color: red;
+    }
+    .logo {
+        background-color: red;
+        width: 57px;
+        height: 57px;
+        margin: 10px 0 0 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-left: 100px;
+        margin-right: 90px;
+
+        li {
+            list-style-type: none;
+            font-size: 24px;
+        }
+
+    }
+}

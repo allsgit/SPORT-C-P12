@@ -1,0 +1,48 @@
+.macro-composant {
+    width: 258px;
+    height: 124px;
+    background: #FBFBFB;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.macro-composant:last-child {
+    margin-bottom: 0;
+}
+
+.macro-icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 24px 0 0;
+    border-radius: 5px;
+    display: flex;
+    img{
+object-fit: cover;
+    }
+}
+
+.macro-propriety {
+    p {
+        margin: 0;
+    }
+    .amount{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .types{
+        font-size: 14px;
+        font-weight: 200;
+    }
+}
+
+aside {}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
